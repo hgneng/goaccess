@@ -76,8 +76,6 @@ static const char *browsers[][2] = {
   {"APT-HTTP", "Others"},
   {"Apt-Cacher", "Others"},
   {"Chef Client", "Others"},
-  {"Huawei", "Others"},
-  {"HUAWEI", "Others"},
   {"BlackBerry", "Others"},
   {"BrowserX", "Others"},
   {"Dalvik", "Others"},
@@ -98,7 +96,6 @@ static const char *browsers[][2] = {
   {"Mosaic", "Others"},
   {"Netscape", "Others"},
   {"SeaMonkey", "Others"},
-  {"UCBrowser", "Others"},
   {"Wget", "Others"},
   {"libfetch", "Others"},
   {"check_http", "Others"},
@@ -134,6 +131,20 @@ static const char *browsers[][2] = {
   {"Vivaldi", "Others"},
   {"YaBrowser", "Others"},
   {"Flock", "Others"},
+
+  /* Chinese browsers */
+  {"MQQBrowser", "MQQBrowser"},
+  {"QQBrowser", "QQBrowser"},
+  {"TencentTraveler", "QQBrowser"},
+  {"UCBrowser", "UCBrowser"},
+  {"baidubrowser", "BaiduBrowser"},
+  {"MetaSr", "Chinese"},
+  {"Maxthon", "Chinese"},
+  {"360SE", "Chinese"},
+  {"The World", "Chinese"},
+  {"Huawei", "Huawei"},
+  {"HUAWEI", "Huawei"},
+
   /* Chrome has to go before Safari */
   {"Chrome", "Chrome"},
 
